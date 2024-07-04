@@ -1,15 +1,20 @@
 //require('dotenv').config()
+//import mongoose from "mongoose";
+//import {DB_NAME} from "G:\WEB DEVELOPMENT\Backend Mastery\src\constants.js";
+
 import dotenv from "dotenv"
 import connectDB from "./db/index.js";
 
-//import mongoose from "mongoose";
-//import {DB_NAME} from "G:\WEB DEVELOPMENT\Backend Mastery\src\constants.js";
 
 dotenv.config({
     path: "./.env"
 })
 
 connectDB()
+
+
+
+
 
 
 /*
