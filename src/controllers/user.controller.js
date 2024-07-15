@@ -107,7 +107,7 @@ if (
        const {email,username,password}=req.body;
        console.log(email);
   
-       if(!username || !password)
+       if(!username && !password)
        {
             throw new ApiError(400,"Username and password are required");
        }
